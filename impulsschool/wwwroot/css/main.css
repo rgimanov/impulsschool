@@ -1,0 +1,243 @@
+*{
+    box-sizing: border-box;
+}
+
+body{
+    font-family: 'Montserrat', sans-serif;
+    margin: 0;
+}
+
+header{
+    height: 100vh;
+    text-align: center;
+    width: 100%;
+}
+
+.wrap-block{
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-image: url(https://static.tildacdn.com/tild3839-6561-4830-b934-373935663961/Gradient.png);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    opacity: 0.5;
+    color: #ffffff;
+    position: absolute;
+    z-index: -1;
+    
+}
+
+
+.zindex{
+    position:absolute;
+    z-index: 1;
+}
+
+.navbar-nav li {
+    padding-right: 20px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 600;
+    font-size: 12px;
+    color: #ffffff !important;
+}
+
+.navbar nav {
+    height: 100px !important;
+}
+
+.main_logo{
+    width: 140px;
+    max-height: 140px;
+    margin-left: 100px;
+}
+
+.main-thefirst{
+    z-index:1 ; 
+    width: 100%; 
+    max-height:90%;
+    font-family: 'Montserrat', sans-serif !important;
+    margin-bottom: 10px;
+
+}
+
+.li-icon{
+    margin-right: 20px;
+    margin-left: 20px;
+}
+
+#oge{
+    width: 50%;
+    text-align: center;
+    border-bottom: 3px solid #b8b8b8;
+    font-family: 'Montserrat', sans-serif !important;
+    font-weight: 600;
+    padding-bottom:14px ;
+    font-size: 14px !important;
+    color: #b8b8b8 ;
+    cursor: pointer;
+
+}
+
+#ege{
+    width: 50%;
+    text-align: center;
+    border-bottom: 3px solid #6e368c;
+    font-family: 'Montserrat', sans-serif !important;
+    font-weight: 600;
+    padding-bottom:14px ;
+    font-size: 14px !important;
+    color: #3a3938 ;
+    cursor: pointer;
+}
+
+#math{
+    height: 60px;
+    padding-top:20px ;
+    padding-bottom:20px ;
+    width: 50%;
+    text-align: center;
+    border-bottom: 3px solid #4d82c3;
+    font-family: 'Montserrat', sans-serif !important;
+    font-weight: 400;
+
+    font-size: 14px !important;
+    color: #4d82c3 ;
+    cursor: pointer;
+}
+
+#ege-content{
+    font-family: 'Montserrat' !important;
+    font-weight: 300;
+    text-align: left;
+    width: 50%;
+    font-size: 14px;
+    color: #5f5f5f !important;
+    float: right;
+    padding-top: 60px;
+}
+
+.btn-s{
+    background-color: #4d82c3 !important;
+    border: 0px !important;
+    color: white !important;
+}
+.btn-s:hover{
+    background-color: #6e368c !important;
+    border: 0px !important;
+    color: white !important;
+}
+#soc{
+    width: 50%;
+    text-align: center;
+    font-family: 'Montserrat', sans-serif !important;
+    font-weight: 400;
+    height: 60px;
+    padding-top:20px ;
+    padding-bottom:20px ;
+    font-size: 14px !important;
+    color: #b8b8b8 ;
+    cursor: pointer;
+
+}
+
+#phis{
+    width: 50%;
+    text-align: center;
+    font-family: 'Montserrat', sans-serif !important;
+    font-weight: 400;
+    height: 60px;
+    padding-top:20px ;
+    padding-bottom:20px ;
+    font-size: 14px !important;
+    color: #b8b8b8 ;
+    cursor: pointer;
+
+}
+
+#rus{
+    width: 50%;
+    text-align: center;
+    font-family: 'Montserrat', sans-serif !important;
+    font-weight: 400;
+    height: 60px;
+    padding-top:20px ;
+    padding-bottom:20px ;
+    font-size: 14px !important;
+    color: #b8b8b8 ;
+    cursor: pointer;
+
+}
+
+#inf{
+    width: 50%;
+    text-align: center;
+    font-family: 'Montserrat', sans-serif !important;
+    font-weight: 400;
+    height: 60px;
+    padding-top:20px ;
+    padding-bottom:20px ;
+    font-size: 14px !important;
+    color: #b8b8b8 ;
+    cursor: pointer;
+
+}
+
+#liter{
+    width: 50%;
+    text-align: center;
+    font-family: 'Montserrat', sans-serif !important;
+    font-weight: 400;
+    height: 60px;
+    padding-top:20px ;
+    padding-bottom:20px ;
+    font-size: 14px !important;
+    color: #b8b8b8 ;
+    cursor: pointer;
+
+}
+
+
+   .carousel-control-prev-icon {
+    background-image: url("data:image/svg+xml;charset=utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' fill='%23000' viewBox='0 0 8 8'%3E%3Cpath d='M5.25 0l-4 4 4 4 1.5-1.5-2.5-2.5 2.5-2.5-1.5-1.5z'/%3E%3C/svg%3E") !important;
+   }
+   .carousel-control-next-icon {
+    background-image: url("data:image/svg+xml;charset=utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' fill='%23000' viewBox='0 0 8 8'%3E%3Cpath d='M2.75 0l-1.5 1.5 2.5 2.5-2.5 2.5 1.5 1.5 4-4-4-4z'/%3E%3C/svg%3E") !important;
+   }
+
+
+
+.btn-r{
+    background-color: #6e368c !important;
+    border: 0px !important;
+    color: white !important;
+}
+.btn-r:hover{
+    background-color: #ed6b6a !important;
+    border: 0px !important;
+    color: white !important;
+}
+
+.white-to-color:hover{
+    background-color: #ffc107;
+}
+
+a,
+a:hover{
+    color: white !important;
+    text-decoration: none !important;
+}
+
+.card {
+    border: none !important;
+    border-top: 1px solid #eee !important;
+    border-bottom: none !important;
+    background-color: #f3f3f3 !important;
+}
+
+.card-header {
+    border: none !important;
+    border-top: 1px solid #eee !important;
+    border-bottom: none !important;
+    background-color: #f3f3f3 !important;
+}
